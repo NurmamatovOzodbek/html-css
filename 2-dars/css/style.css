@@ -1,0 +1,103 @@
+h1{
+  font-family:"Helvetica";
+  font-style: italic;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #1098AD;
+}
+/* .blog{
+  font-family: "Helvetica";
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #1098AD;
+} */
+h2{
+  font-family: "Helvetica";
+  font-style: normal;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  color: #1098AD;
+}
+.posted{
+  font-family: 'Helvetica';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+.website{
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+}
+h3{
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 34px;
+  color: #1098AD;
+}
+.opening{
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+.closing{
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+.actual{
+  font-family: 'Helvetica';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+h4{
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.by{
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 33px;
+}
+.link{
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-decoration: none;
+  color: #1098AD;
+}
+.copyright{
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+}
