@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap');
+
+body{
+  font-family: 'Space Grotesk', sans-serif;
+  background: #151515;
+}
+body::-webkit-scrollbar{
+  width: 0;
+}
+.head{
+  width: 100%;
+  background-image: url(/img/aylana-1.svg);
+  background-repeat: no-repeat;
+  background-position: left 133px;
+}
+.head .header{
+  background-image: url(/img/profil-img.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  padding-bottom: 70px;
+  margin-bottom: 104px;
+}
+.container{
+  max-width: 1110px;
+  margin: 0 auto;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 127px;
+  flex-wrap: wrap;
+}
+header span{
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: -0.444444px;
+  color: #FFFFFF;
+}
+header nav{
+  width: 192.5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head .header .header__about{
+  display: flex;
+  flex-direction: column;
+}
+.head .header .header__about .about{
+  max-width: 706px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 43px;
+  margin-bottom: 20px;
+}
+.head .header .header__about .about h1{
+  font-weight: 700;
+  font-size: 88px;
+  line-height: 88px;
+  letter-spacing: -2.5px;
+  color: #FFFFFF;
+  margin: 0;
+}
+.head .header .header__about .about h1 span{
+  text-decoration: underline #4EE1A0;;
+}
+.head .header .header__about .about p{
+  max-width: 445px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #D9D9D9;
+  margin: 0;
+}
+.head .header .header__about .button__circle{
+  display: flex;
+  column-gap: 465px;
+  align-items: center;
+}
+.btn{
+  background: #131313;
+  padding: 0 3px 12px 0;
+  border: 0;
+  border-bottom: 2px solid #4EE1A0;;
+}
+a{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 2.28571px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+a:hover{
+  color: #4EE1A0;
+}
+.head .header .header__about .button__circle .circle{
+  width: 129px;
+  height: 129px;
+  border-radius: 100%;
+  box-sizing: border-box;
+  border: 1px solid #FFFFFF;
+}
+.line{
+  /* max-width: 1110px; */
+  height: 1px;
+  background: #ffffff;
+}
+main{
+  width: 100%;
+  background-image: url(/img/aylana-2.svg);
+  background-repeat: no-repeat;
+  background-position: right 196px;
+  margin:72px 0 139px 0;
+}
+main .specialty{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 58px 32.5px;
+  margin-bottom: 140px;
+}
+main .specialty .specialty__1{
+  width: 345px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 14px;
+}
+main .specialty strong{
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -1.5px;
+  color: #FFFFFF;
+}
+main .specialty p{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #D9D9D9;
+  margin: 0;
+}
+.mobilne__line{
+  display: none;
+}
+main .all__projects .project{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+main .all__projects .project h2{
+  font-weight: 700;
+  font-size: 88px;
+  line-height: 88px;
+  letter-spacing: -2.5px;
+  color: #FFFFFF;
+}
+main .all__projects .projects__about{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 69px 27px;
+}
+main .all__projects .projects__about .design__portfolio{
+  max-width: 540px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 20px;
+}
+main .all__projects .projects__about img{
+  width: 545px;
+}
+main .all__projects .projects__about span{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+main .all__projects .projects__about .design__portfolio .name .basis{
+  width: 223px;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  column-gap: 18px;
+  margin-top: 7px;
+}
+main .all__projects .projects__about p{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #D9D9D9;
+  margin: 0;
+}
+.btn__buttons{
+  display: none;
+}
+.buttons{
+  max-width: 280px;
+  display: flex;
+  justify-content: space-between;
+}
+footer{
+  width: 100%;
+  background: #242424;
+  background-image: url(/img/aylana-3.svg);
+  background-repeat: no-repeat;
+  background-position: left 327px;
+  padding: 84px 0 92px 0;
+}
+footer .footer{
+  display: flex;
+  flex-direction: column;
+  row-gap: 47px;
+}
+footer .footer__contact{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 45px;
+}
+footer .footer__contact .writes{
+  max-width: 445px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 36px;
+}
+footer .footer__contact .writes h3{
+  font-weight: 700;
+  font-size: 88px;
+  line-height: 88px;
+  letter-spacing: -2.5px;
+  color: #FFFFFF;
+  margin: 0;
+}
+footer .footer__contact .writes p{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #D9D9D9;
+  margin: 0;
+}
+footer .footer__contact form{
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+  align-items: flex-end;
+}
+footer .footer__contact form input{
+  width: 445px;
+  padding:0 0 16px 24px;
+  border: 0;
+  border-bottom:1px solid white;
+  background: #242424;
+  color: white;
+  outline: none;
+}
+footer .footer__contact form button{
+  background: #242424;
+}
+footer .footer__contact form input::placeholder{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.222222px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+footer .footer__contact form .message__quetion{
+  padding-bottom: 80px;
+}
+footer .footer__head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+footer .footer__head span{
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: -0.444444px;
+  color: #FFFFFF;
+}
+footer .footer__head nav{
+  width: 192.5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Tablet media */
+
+@media only screen and (max-width:1122px) {
+  .head .header{
+    background-image: url(/img/mobilne/profil-img.png);
+    background-size: 322px;
+    margin-bottom: 60px;
+  }
+  .container{
+    max-width: 708.5px;
+    margin: 0 auto;
+  }
+  .head .header .header__about .about{
+    max-width: 440px;
+    row-gap: 60px;
+    margin-bottom: 34px;
+  }
+  .head .header .header__about .about h1{
+    font-size: 72px;
+    line-height: 72px;
+    letter-spacing: -2.045px;
+  }
+  .head .header .header__about .about p{
+    max-width: 430px;
+  }
+  .btn{
+    background: #131313;
+    padding: 0 2px 12px 0;
+    border: 0;
+    border-bottom: 2px solid #4EE1A0;;
+  }
+  .head .header .header__about .button__circle .circle{
+    display: none;
+  }
+  main{
+    background-position: 570px 335px;
+    margin:53px 0 139px 0;
+  }
+  main .specialty{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 52px 7px;
+    margin-bottom: 100px;
+  }
+  main .all__projects .project h2{
+    font-size: 72px;
+    line-height: 72px;
+    letter-spacing: -2.05px;
+  }
+  main .all__projects .projects__about img{
+    width: 342px;
+  }
+  main .all__projects .projects__about{
+    gap: 60px 20px;
+  }
+  main .all__projects .projects__about .design__portfolio{
+    row-gap: 20px;
+  }
+  .btn__buttons{
+    display: block;
+  }
+  footer{
+    background-position: left 547px;
+    padding: 60px 0 40px 0;
+  }
+  footer .footer__contact .writes h3{
+    font-size: 72px;
+    line-height: 72px;
+    letter-spacing: -2.05px;
+  }
+  footer .footer{
+    display: flex;
+    flex-direction: column;
+  }
+  footer .footer__contact{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 92px;
+    text-align: center;
+    row-gap: 48px;
+  }
+  footer .footer__contact .writes{
+    row-gap: 20px;
+  }
+}
+
+/* Mobilne media */
+
+@media only screen and (max-width:500px) {
+  .head{
+    background-position: -187px 124px;
+  }
+  .head .header{
+    background-size: 174px;
+    margin-bottom: 60px;
+    background-position: center top;
+  }
+  header{
+    justify-content: center;
+    margin-bottom: 331px;
+    flex-direction: column;
+  }
+  header span{
+    font-size: 24px;
+    letter-spacing: -0.33333px;
+  }
+  header nav{
+    width: 154px;
+  }
+  .container{
+    max-width: 343px;
+    margin: 0 auto;
+  }
+  .head .header .header__about{
+    align-items: center;
+  }
+  .head .header .header__about .about{
+    row-gap: 20px;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  .head .header .header__about .about h1{
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -1.13636px;
+  }
+  main{
+    background-position: 245px 499px;
+    margin:40px 0 80px 0;
+  }
+  main .specialty{
+    row-gap: 24px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  main .specialty .specialty__1{
+    row-gap: 1px;
+  }
+  main .specialty strong{
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -1px;
+  }
+  main .specialty p{
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .mobilne__line{
+    display: block;
+    margin-bottom: 40px;
+  }
+  main .all__projects .projects__about{
+    row-gap: 40px;
+  }
+  main .all__projects .project{
+    flex-wrap: nowrap;
+  }
+  main .all__projects .project h2{
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -1.13636px;
+  }
+  footer{
+    background-position: -130px 440px;
+    padding: 60px 0 40px 0;
+
+  }
+  footer .footer__contact .writes h3{
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -1.13636px;
+  }
+  footer .footer__contact{
+    margin-bottom: 87px;
+    row-gap: 50px;
+  }
+  footer .footer__contact form input{
+    width: 343px;
+    background: rgba(36, 36, 36, 0);
+  }
+  footer .footer__head{
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  footer .footer__head span{
+    font-size: 24px;
+    letter-spacing: -0.333333px;
+  }
+  footer .footer__head nav{
+    width: 154px;
+  }
+
+}
