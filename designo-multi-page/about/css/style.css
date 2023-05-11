@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap');
+
+body{
+  font-family: 'Jost', sans-serif;
+  margin: 0;
+}
+body::-webkit-scrollbar{
+  width: 0;
+}
+header{
+  width: 100%;
+  margin-top: 64px;
+  display: flex;
+  justify-content: center;
+}
+.continer{
+  width: 1111px;
+  margin: 0 auto;
+}
+header .continer .header__degin{
+  width: 1150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .continer .header__degin ul{
+  width: 370px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+header .continer .header__degin ul li a{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  color: #333136;
+  text-decoration: none;
+}
+main .project__about{
+  background: #E7816B;
+  border-radius: 15px;
+
+  background-image: url(/img/bacgraund_img3.svg);
+  background-repeat:no-repeat;
+  background-position: right;
+
+  display: flex;
+  justify-content: space-between;
+}
+main .project__about .group29{
+  width: 459px;
+  color: #ffffff;
+  padding: 72px 0px 40px 95px;
+
+  display: flex;
+  flex-direction: column;
+}
+main .project__about .group29 h3{
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 40px;
+  margin: 0;
+}
+main .project__about .group29 p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 32px;
+}
+main .project__about button{
+  width: 152px;
+  height: 52px;
+  border-radius: 10px;
+  border: none;
+  margin: 118px 96px;
+}
+main .project__about button a{
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #333136;
+}
