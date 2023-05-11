@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+body{
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+}
+a{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: -0.194444px;
+  color: #9495A5;
+  text-decoration: none;
+}
+.head{
+  width: 100%;
+  background-image: url(/img/head-fon.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 70px 0 78px 0;
+}
+.container{
+  max-width: 540px;
+  margin: 0 auto;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  row-gap: 48px;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: 15px;
+  color: #FFFFFF;
+}
+.new__todo{
+  background: white;
+  box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+  border-radius: 5px;
+  padding: 23px 0;
+  border-bottom: 1px solid #E3E4F1;
+
+  display: flex;
+  justify-content: space-between;
+}
+.new__todo form{
+  display: flex;
+  column-gap: 24px;
+  align-items: center;
+}
+.new__todo form #search{
+ border: 0;
+ outline: none;
+ font-family: 'Josefin Sans';
+ font-weight: 400;
+ font-size: 18px;
+ line-height: 18px;
+ letter-spacing: -0.25px;
+}
+.new__todo form #search::placeholder{
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: -0.25px;
+
+  color: #9495A5;
+}
+.new__todo form #checkbox{
+  margin-left: 24px;
+}
+.head .header .new__todo img{
+  display: none;
+}
+main{
+  width: 100%;
+  transform: translateY(-54px);
+}
+.course__about{
+  background: white;
+  box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+  border-radius: 5px;
+  margin-bottom: 49px;
+}
+main .course__about img{
+  margin-right: 24px;
+  display: none;
+}
+main input{
+  margin-left: 24px;
+}
+.javascript__course label{
+  text-decoration-line: line-through;
+  color: #D1D2DA;
+}
+label{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: -0.25px;
+  color: #494C6B;
+}
+.course__about .all__course{
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  margin: 0 24px;
+}
+p{
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: -0.194444px;
+  color: #9495A5;
+  text-align: center;
+}
+ul{
+  display: flex;
+  align-items: center;
+  column-gap: 19px;
+  list-style: none;
+}
+.mobilne__ul{
+  display: none;
+  background: #FFFFFF;
+  box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+  border-radius: 5px;
+  padding: 15px 0 19px 0;
+  margin-bottom: 40px;
+}
+.mobilne__ul ul{
+  display: flex;
+  column-gap: 19px;
+  justify-content: center;
+  list-style: none;
+}
+.input{
+  width: 25px;
+  height: 25px;
+  border: 1px solid red;
+  border-radius: 100%;
+}
+.input:checked{
+  background: #000;
+}
+.chek{
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+@media only screen and (max-width:570px) {
+  .head{
+    background-image: url(/img/mobile-head-fon.png);
+  }
+  .container{
+    max-width: 327px;
+    margin: 0 auto;
+  }
+  .header{
+    row-gap: 40px;
+  }
+  header{
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 10px;
+  }
+  .new__todo{
+    padding: 18px 0;
+  }
+  .new__todo form{
+    column-gap: 12px;
+  }
+  .new__todo form input{
+    margin-left: 20px;
+  }
+  .new__todo form #search{
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: -0.166667px;
+    margin: 0;
+   }
+   .new__todo form #search::placeholder{
+     font-size: 12px;
+     line-height: 12px;
+     letter-spacing: -0.166667px;
+   }
+   .new__todo form #checkbox{
+     margin-left: 20px;
+   }
+   .course__about{
+    margin-bottom: 16px;
+  }
+  main .course__about img{
+    display: block;
+  }
+  label{
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: -0.166667px;
+  }
+  .course__about .all__course{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    margin: 0 20px;
+  }
+  p{
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: -0.166667px;
+  }
+  ul{
+    display: none;
+  }
+  .mobilne__ul{
+    display: block;
+    background: #FFFFFF;
+    box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+    border-radius: 5px;
+    padding: 1px;
+    margin-bottom: 40px;
+  }
+}
