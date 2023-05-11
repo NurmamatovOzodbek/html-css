@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+
+body{
+  margin: 0;
+}
+body::-webkit-scrollbar{
+  width: 0;
+}
+.head{
+  max-width: 1440px;
+  background-image: url(/img/desktop/orqa-fon.png);
+  background-repeat: no-repeat;
+  padding: 64px 0 146px 0;
+  margin: 0 auto;
+}
+.container{
+  max-width: 1110px;
+  margin: 0 auto;
+}
+header nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+header nav img{
+  width: 192px;
+  height: 32px;
+}
+header nav .taggel a img{
+  width: 24px;
+  height: 16px;
+  display: none;
+}
+header nav ul{
+  display: flex;
+  width: 380px;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+header nav ul li a{
+  font-family: 'Alata';
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.head .immersive{
+  max-width: 570px;
+  border: 2px solid #FFFFFF;
+
+  padding: 40px;
+}
+.head .immersive span{
+  font-family: 'Josefin Sans';
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 70px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+main{
+  margin-top: 160px;
+}
+main .container .brief_information{
+  margin-bottom: 0;
+}
+main .container .brief_information img{
+  width: 731px;
+  height: 500px;
+}
+main .container .brief_information .information__container{
+  max-width: 541px;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 96px;
+  background: #FFFFFF;
+  transform: translate(570px, -317px);
+}
+main .container .brief_information .information__container .all__information{
+  max-width: 447px;
+  color: #000000;
+}
+main .container .brief_information .all__information h1{
+  font-family: 'Josefin Sans';
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 48px;
+  text-transform: uppercase;
+  margin: 0;
+}
+main .container .brief_information .all__information p{
+  font-family: 'Alata';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  margin: 25px 0 0 0;
+}
+main .container .our__creat{
+  margin-top: -184px;
+}
+main .container .our__creat .creations{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+main .container .our__creat .creations h2{
+  font-family: 'Josefin Sans';
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+main .container .our__creat .creations button{
+  padding: 13px 43px 13px 38px;
+  background: white;
+}
+main .container .our__creat .creations button a{
+  font-family: 'Alata';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color:#000000;
+}
+main .container .our__creat article{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 80px;
+}
+main .container .our__creat article .projects{
+  padding: 354px 108.5px 32px 40px;
+  background-image:url(/img/desktop/earth.png);
+  background-repeat: no-repeat;
+}
+main .container .our__creat article span{
+  font-family: 'Josefin Sans';
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+main .container .our__creat article .arcade{
+  padding: 354px 84px 32px 40px;
+  background-image:url(/img/desktop/arcade.png);
+  background-repeat: no-repeat;
+}
+main .container .our__creat article .soccer{
+  padding: 354px 72px 32px 40px;
+  background-image:url(/img/desktop/soccer-vr.png);
+  background-repeat: no-repeat;
+}
+main .container .our__creat article .grid{
+  padding: 354px 139px 32px 40px;
+  background-image:url(/img/desktop/grid.png);
+  background-repeat: no-repeat;
+}
+main .container .our__creat article .above{
+  padding: 354px 52px 32px 40px;
+  background-image:url(/img/desktop/above-vr.png);
+  background-repeat: no-repeat;
+}
+main .container .our__creat article .pocket{
+  padding: 354px 59px 32px 40px;
+  background-image:url(/img/desktop/pocket-borealis.png);
+  background-repeat: no-repeat;
+}
+main .container .our__creat article .curiosity{
+  padding: 354px 47px 32px 40px;
+  background-image:url(/img/desktop/curiosity.jpg);
+  background-repeat: no-repeat;
+}
+main .container .our__creat article .fisheye{
+  padding: 354px 81px 32px 40px;
+  background-image:url(/img/desktop/fisheye.png);
+  background-repeat: no-repeat;
+}
+footer{
+  width: 100%;
+  background: #000;
+  margin-top: 184px;
+  padding: 44px 0;
+}
+footer .container .logo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .container .logo .social__networks{
+  width: 144px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .container .footer__about{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+footer .container .footer__about ul{
+  display: flex;
+  max-width: 380px;
+  justify-content: space-between;
+  list-style: none;
+  margin-left: -40px;
+}
+footer .container .footer__about ul li a{
+  font-family: 'Alata';
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+footer .container .footer__about span{
+  font-family: 'Alata';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+
+@media only screen and (max-width:768px) {
+  .head{
+    width: 375px;
+    background-image: url(/img/mobile/orqa-fon.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding: 40px 0 227px 0;
+  }
+  .container{
+    width: 327px;
+    margin: 0 auto;
+  }
+  header nav{
+    margin-bottom: 150px;
+  }
+  header nav img{
+    width: 144px;
+    height: 24px;
+  }
+  header nav .taggel a img{
+    display: flex;
+  }
+  header nav ul{
+    display: none;
+  }
+  .head .immersive span{
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  main{
+    margin-top: 96px;
+  }
+  main .container .brief_information img{
+    width: 327px;
+    height: 224px;
+  }
+
+  main .container .brief_information .information__container{
+    max-width: 279px;
+    background: #FFFFFF;
+    transform: translate(24px, 0px);
+  }
+  main .container .brief_information .all__information{
+    text-align: center;
+    margin-top: -48px;
+  }
+  main .container .brief_information .all__information h1{
+    font-size: 32px;
+    line-height: 32px;
+  }
+  main .container .our__creat{
+    margin: 96px 0 184px 0;
+  }
+  main .container .our__creat .creations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  main .container .our__creat .creations h2{
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+  }
+  main .container .our__creat article{
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    margin-top: 24px;
+  }
+  main .container .our__creat article .projects{
+    padding: 52px 227px 20px 20px;
+    background-image:url(/img/mobile/earth.png);
+    background-repeat: no-repeat;
+  }
+  main .container .our__creat article span{
+    font-size: 24px;
+    line-height: 24px;
+  }
+  main .container .our__creat article .arcade{
+    padding: 52px 208px 20px 20px;
+    background-image:url(/img/mobile/arcade.png);
+    background-repeat: no-repeat;
+  }
+  main .container .our__creat article .soccer{
+    padding: 52px 199px 20px 20px;
+    background-image:url(/img/mobile/soccer.png);
+    background-repeat: no-repeat;
+  }
+  main .container .our__creat article .grid{
+    padding: 52px 249px 20px 20px;
+    background-image:url(/img/mobile/grid.png);
+    background-repeat: no-repeat;
+  }
+  main .container .our__creat article .above{
+    padding: 52px 184px 20px 20px;
+    background-image:url(/img/mobile/above.png);
+    background-repeat: no-repeat;
+  }
+  main .container .our__creat article .pocket{
+    padding: 52px 189px 20px 20px;
+    background-image:url(/img/mobile/pocket.png);
+    background-repeat: no-repeat;
+  }
+  main .container .our__creat article .curiosity{
+    padding: 52px 180px 20px 20px;
+    background-image:url(/img/mobile/curiosity.png);
+    background-repeat: no-repeat;
+  }
+  main .container .our__creat article .fisheye{
+    padding: 52px 208px 20px 20px;
+    background-image:url(/img/mobile/fisheye.png);
+    background-repeat: no-repeat;
+  }
+  main .container .our__creat .creations button{
+    transform: translateY(1242px);
+
+  }
+  footer{
+    width: 375px;
+    background: #000;
+    padding: 56px 0;
+    margin: 0 auto;
+  }
+  footer .container .logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .container .logo .social__networks{
+    width: 144px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateY(295px);
+  }
+  footer .container .footer__about{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 12px;
+  }
+  footer .container .footer__about ul{
+    display: flex;
+    max-width: 272px;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    row-gap: 16px;
+  }
+  footer .container .footer__about span{
+    transform: translateY(80px);
+    margin-bottom: 64px;
+  }
+}
