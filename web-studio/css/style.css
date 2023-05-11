@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+
+body{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+a{
+  text-decoration: none;
+  color: #212121;
+}
+header{
+  width: 100%;
+  padding: 24px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__web{
+  width: 1170px;
+  background: yellow;
+  display: flex;
+  align-items: center;
+  column-gap: 93px;
+}
+header .header__web strong{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+header .header__web strong span{
+  color:#2196F3;
+}
+header .header__web ul{
+  width: 294px;
+  display: flex;
+  column-gap: 50px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  list-style: none;
+
+}
+header .header__web .header__contact{
+  width: 333px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 170px;
+}
+header .header__web .header__contact .email{
+  width: 161px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+header .header__web .header__contact .phone{
+  width: 142px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+header .header__web .header__contact a{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+header .header__web .header__contact .phone span{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
