@@ -1,0 +1,63 @@
+.in-1{
+  position: absolute;
+  top: 20px;
+  left: 0px;
+}
+.in-1:hover{
+  transform: scaleX(10);
+  transition: 2s;
+}
+.in-2{
+  position: absolute;
+  top: 50px;
+  left: 0px;
+}
+.in-2:hover{
+  transform: scaleX(10);
+  transition: 2s;
+}
+.in-3{
+  position: absolute;
+  top: 80px;
+  left: 0px;
+}
+.in-3:hover{
+  transform: scaleX(10);
+  transition: 2s;
+}
+.in-4{
+  position: absolute;
+  top: 110px;
+  left: 0px;
+}
+.in-4:hover{
+  transform: scaleX(10);
+  transition: 2s;
+}
+.in-5{
+  position: absolute;
+  top: 140px;
+  left: 0px;
+}
+.in-5:hover{
+  transform: scaleX(10);
+  transition: 2s;
+}
+.in-6{
+  position: absolute;
+  top: 170px;
+  left: 0px;
+}
+.in-6:hover{
+  transform: scaleX(10);
+  transition: 2s;
+}
+.in-7{
+  position: absolute;
+  top: 200px;
+  left: 0px;
+}
+.in-7:hover{
+  transform: scaleX(10);
+  transition: 2s;
+}

@@ -1,0 +1,111 @@
+body{
+  width: 1140px;
+  height: 900px;
+  background: #000;
+}
+.wrapper{
+  position: absolute;
+  width: 350px;
+  height: 596px;
+  left: 545px;
+  top: 152px;
+
+  background: #15263F;
+  /* box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917); */
+  border-radius: 15px;
+}
+.kubik{
+  position: absolute;
+  width: 302px;
+  height: 302px;
+  top: 24px;
+  left: 24px;
+}
+h1{
+  position: absolute;
+  top: 335px;
+  left: 24px;
+  color: #fff;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+}
+.equil{
+  position: absolute;
+  top: 375px;
+  left: 24px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color:#8BACD9;
+}
+.combined{
+  position: absolute;
+  left: 24px;
+  top: 470px;
+}
+.eth{
+  position: absolute;
+  top: 455px;
+  left: 42px;
+
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #00FFF8;
+}
+.days{
+  position: absolute;
+  top: 455px;
+  left: 251px;
+  font-family: 'Outfit', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color:#8BACD9;
+}
+.soatcha{
+  position: absolute;
+  top: 475px;
+  left: 230px;
+}
+.chiziq{
+  position: absolute;
+  width: 302px;
+  height: 1px;
+  top: 515px;
+  left: 24px;
+  background:#2E405A;;
+}
+.oval{
+  position: absolute;
+  top: 532px;
+  left: 24px;
+}
+.creat{
+  position: absolute;
+  top: 539px;
+  left: 73px;
+
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #8BACD9;
+  text-decoration: none;
+}
+.jules{
+  position: absolute;
+  left: 159px;
+  top: 522px;
+
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
