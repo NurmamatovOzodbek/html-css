@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+.mask1{
+  width: 1440px;
+  height: 600px;
+  background-image: url(/img/Maps.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.home{
+  position: absolute;
+  width: 264px;
+  height: 72px;
+  background: #D5966C;
+  top: 0px;
+  left: 156px;
+
+  border: 0px;
+}
+.burchak{
+  width: 20px;
+  height: 20px;
+
+  border-bottom: 1px solid #ffffff;
+  border-left: 1px solid #ffffff;
+  transform: rotate(45deg);
+
+}
+.back{
+  position: absolute;
+  width: 56px;
+  height: 72px;
+  background: #151515;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.to{
+  font-family: 'Big Shoulders Display',cursive;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 3.63636px;
+
+  position: absolute;
+  left: 88px;
+  top: 24px;
+
+  color: #ffffff;
+}
+.manzil{
+  position: absolute;
+  top: 255px;
+  left: 687px;
+}
+.mask2{
+  position: absolute;
+  left: 0px;
+  top: 600px;
+  background: #151515;
+  width: 1440px;
+  height: 548px;
+}
+h1{
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 900;
+  font-size: 70px;
+  line-height: 70px;
+  position: absolute;
+  left: 164px;
+  top: 104px;
+  color: #ffffff;
+}
+h2{
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 900;
+}
+.king{
+  font-size: 36px;
+  line-height: 36px;
+  position: absolute;
+  top: 104px;
+  left: 735px;
+  color: #D5966C;
+  text-transform: uppercase;
+}
+p{
+  font-weight: 300;
+  font-family: 'Outfit', sans-serif;
+}
+.newport{
+  font-size: 22px;
+  line-height: 32px;
+
+  position: absolute;
+  left: 735px;
+  top: 164px;
+  color: #ffffff;
+}
+.our{
+  font-size: 22px;
+  line-height: 32px;
+
+  position: absolute;
+  left: 735px;
+  top: 292px;
+  color: #ffffff;
+}
+.mask3{
+  position: absolute;
+  width: 1440px;
+  height: 244px;
+  left: 0px;
+  top: 1148px;
+  background: #D5966C;
+}
+.modern{
+  position: absolute;
+  top: 80px;
+  left: 165px;
+}
+.gallery{
+  font-size: 18px;
+  line-height: 28px;
+  position: absolute;
+  top: 50px;
+  left: 465px;
+  color: #151515;
+}
+.face{
+  position: absolute;
+  top: 80px;
+  left: 1175px;
+}
+.insta{
+  position: absolute;
+  top: 80px;
+  left: 1215px;
+}
+.twit{
+  position: absolute;
+  left: 1255px;
+  top: 80px;
+}
