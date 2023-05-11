@@ -1,0 +1,94 @@
+body{
+  background: radial-gradient(53.46% 82.05% at 26.61% 46.54%,#FFD972 0% ,#FFF9D6 100%);
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.oy{
+  position: absolute;
+  left:93px;
+  top: 140px;
+  width: 747px;
+  height: 752px;
+
+  animation: yarim_oy 3s;
+}
+.chiroq{
+  position: absolute;
+  left: 95.91;
+  top: 0px;
+
+  animation:chiroq 3s;
+
+}
+.shadow{
+  position: absolute;
+  top: 245px;
+  left: 678px;
+
+  background: linear-gradient(209.36deg, rgba(196, 196, 196, 0) 80.19%);;
+}
+.ramadan{
+  position: absolute;
+  left: 922px;
+  top: 580px;
+}
+p{
+  position: absolute;
+  left:918px;
+  top: 675px;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #563211;
+
+  animation: shadow 3s;
+}
+.naqsh{
+  position: absolute;
+  left: 1750px;
+  top:0px;
+  bottom: 0px;
+
+  animation:animate 3s;
+}
+@keyframes animate{
+  0%{
+    top: 0px;
+    left:0px;
+  }
+  100%{
+    top: 0px;
+    left: 1750px;
+  }
+}
+@keyframes shadow {
+  0%{
+    font-size: 0px;
+  }
+  100%{
+    font-size: 22px;
+  }
+}
+@keyframes yarim_oy {
+  0%{
+    width: 1px;
+    height: 1px;
+  }
+  100%{
+    width: 747px;
+    height: 752px;
+  }
+}
+@keyframes chiroq {
+  0%{
+    top:-500px;
+    left: 95.91;
+  }
+  100%{
+    left:95.91;
+    top: 0px;
+  }
+}

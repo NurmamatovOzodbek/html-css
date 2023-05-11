@@ -1,0 +1,82 @@
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.wrapper{
+  width: 1600px;
+  height: 900px;
+  background:#fff;
+  position: absolute;
+}
+.galery{
+  width: 1200px;
+  height: 656px;
+  background: #fff;
+  position: absolute;
+  left: 200px;
+  top: 119px;
+}
+h1{
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 120%;
+
+}
+.design{
+  position: absolute;
+  font-family: 'TT Firs Nueu', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 120%;
+  left: 458px;
+  top:-20px;
+}
+.rasm1{
+  position: absolute;
+  top: 154px;
+}
+.rasm2{
+  position: absolute;
+  left: 305px;
+  top: 154px;
+}
+.rasm3{
+  position: absolute;
+  left: 610px;
+  top: 154px;
+}
+.rasm4{
+  position: absolute;
+  left: 915px;
+  top: 154px;
+}
+.extra{
+  width: 285px;
+  height: 50px;
+  background:#fff;
+  position: absolute;
+  top: 550px;
+}
+h2{
+  font-family: 'TT Firs Neue', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #BABABA;
+}
+.this{
+  font-family: 'TT Firs Neue', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 110%;
+
+  position: absolute;
+  top: 15px;
+}
