@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&display=swap');
+/* font-family: 'Big Shoulders Display', cursive; */
+/* font-family: 'Outfit', sans-serif; */
+*{
+  margin: 0;
+}
+body::-webkit-scrollbar{
+  width: 0;
+}
+.inner{
+  width: 1275px;
+  background: white;
+  display: flex;
+  align-items: center;
+}
+.group7{
+  width: 990px;
+  background: #000;
+  display: flex;
+  justify-content: flex-end;
+}
+.inner .group8{
+  width: 1110px;
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  margin:-825px;
+  padding-bottom: 250px;
+}
+.inner .group8 h1{
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 88px;
+  color:#ffffff;
+}
+.inner .group8 h1 span{
+  color: #000;
+}
+.inner .group8 p{
+  width: 350px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 32px;
+}
+.group3{
+  width: 350px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 64px;
+}
+.inner .group8 .group3 button{
+  width: 260px;
+  height: 72px;
+  background: #151515;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 32px;
+  padding-right: 0;
+  margin-top: 64px;
+}
+.inner .group8 .group3 button a{
+  font-family: 'Big Shoulders Display';
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 3.63636px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.inner .group8 .group3 button .group{
+  width: 56px;
+  height: 72px;
+  background: #D5966C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: -1px;
+}
+.group6{
+  width: 1110px;
+  margin: 0 auto;
+  margin-top: 180px;
+}
+.group6 .group4{
+  width: 1110px;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+.group6 .group4 .yozuvlar{
+  width: 350px;
+}
+.group6 .group4 .yozuvlar h2{
+  font-family: 'Big Shoulders Display';
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+.group6 .group4 .yozuvlar p{
+  font-family: 'Outfit';
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 32px;
+}
+.group5{
+  width: 1110px;
+  height: 720px;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+.group6 .group5 .group{
+  width: 445px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.group6 .group5 .group img{
+  width: 445px;
+}
+.group6 .group5 .group .inspader{
+  width: 350px;
+  height: 250px;
+  background: #000;
+  padding: 65px 48px;
+}
+.group6 .group5 .group .inspader .yozuvlar{
+  width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  color: #ffffff;
+}
+.group6 .group5 .group .inspader .yozuvlar h2{
+  font-family: 'Big Shoulders Display';
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 60px;
+  text-transform: uppercase;
+  margin: 0;
+}
+.group6 .group5 .group .inspader .yozuvlar p{
+  font-family: 'Outfit';
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 32px;
+  margin: 32px 0;
+}
+
+footer{
+  width: 100%;
+  height: 244px;
+  background: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .group10{
+  width: 100%;
+  height: 84px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 300px;
+}
+footer .group10 .group8{
+  width: 730px;
+  height: 84px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .group10 .group8 p{
+  width: 430px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+}
+  footer .group10 .group9{
+  width: 100px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+}
