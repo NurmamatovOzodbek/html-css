@@ -1,0 +1,107 @@
+body::-webkit-scrollbar{
+  width: 0;
+}
+.all{
+  display: inline-block;
+  margin-left: 120px;
+}
+h1{
+  font-family: 'Arial';
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 49px;
+  margin-bottom: 0px;
+}
+.enter{
+  margin: 8px 0px 20px 0px;
+  font-family: 'Arial';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #949494;
+}
+.google{
+  margin-top: 10px;
+  width: 440px;
+  height: 45px;
+  font-size: 15px;
+
+  background: #FFFFFF;
+  border: 2px solid rgba(230, 229, 229, 0.15);
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+img{
+  margin: -10px 10px -10px 0px;
+  width: 20px;
+}
+.chiziq{
+  font-family: 'Manrope';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+
+  margin: 43px 0px 50px 200px;
+  color: #c4c4c4c4;
+}
+.adres{
+  font-family: 'Arial';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+.malumot{
+  font-family: 'Arial';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+
+  margin: 8px 0px 28px 0px;
+  width: 420px;
+  height: 35px;
+  padding-left: 12px;
+}
+.belgi{
+  background: #FFFFFF;
+  width: 17px;
+  height: 17px;
+  margin: 18px 5px 8px 0px;
+}
+.keep{
+  font-family: 'arial';
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+}
+.kirish{
+  background: #3562FF;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+  width: 440px;
+  height: 45px;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.login{
+  width: 756px;
+}
+.member{
+  font-family: 'Arial';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+}
+.hammasi{
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+  width: 1512px;
+}
+input::placeholder{
+  font-family: 'Arial';
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 23px;
+  color: #c4c4c4c4;
+}
