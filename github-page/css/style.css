@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+body{
+  font-family: 'Space Mono', monospace;
+  margin: 0;
+  background: #F6F8FF;
+}
+header{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+}
+header .group6{
+  width: 730px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .group6 p{
+  font-size: 26px;
+  line-height: 39px;
+}
+header .group6 .group5{
+  width: 78px;
+  display: flex;
+  justify-content: space-between;
+}
+header .group6 .group5 p{
+  font-size: 13px;
+  line-height: 19px;
+  letter-spacing: 2.5px;
+  color: #697C9A;
+}
+main{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 24px 0;
+  flex-direction: column;
+}
+main .group7{
+  width: 730px;
+  display: flex;
+  column-gap: 280px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.198567);
+  border-radius: 15px;
+  padding: 10px 0;
+}
+main .group7 .search{
+  width: 305px;
+  display: flex;
+  column-gap: 24px;
+}
+main .group7 .search form input{
+  width: 275px;
+  outline: none;
+  border:  none;
+}
+main .group7 .search form input::placeholder{
+  font-family: 'Space Mono', monospace;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #4B6A9B;
+}
+main .group7 button{
+  width: 106px;
+  border-radius: 10px;
+  background: rgba(0, 121, 255, 1);
+  padding: 13px 24px;
+  margin-right: -20px;
+}
+main .group7 button a{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color:#ffffff;
+  text-decoration: none;
+}
+main .rectangle{
+  width: 730px;
+  display: flex;
+  justify-content: center;
+  margin: 24px 0;
+
+  background: #FEFEFE;
+  box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.198567);
+  border-radius: 15px;
+  padding-bottom: 30px;
+}
+main .rectangle .group{
+  width: 635px;
+  display: flex;
+  justify-content: center;
+  column-gap: 37px;
+  align-items: flex-start;
+  margin-top: 44px;
+}
+main .rectangle .group .group1{
+  width: 480px;
+}
+main .rectangle .group .group1 .octo{
+  width: 480px;
+  display: flex;
+  flex-direction: column;
+}
+main .rectangle .group .group1 .octo .join{
+  width: 480px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.group .group1 .octo .join h1{
+  margin-top: -5px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 39px;
+  margin-bottom: 0;
+}
+.group .group1 .octo .join p{
+  margin-top: -10px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #697C9A;
+}
+.group .group1 .octo a{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #0079FF;
+  margin-top: 5 px;
+}
+.group .group1 .lorem{
+  width: 480px;
+  padding-bottom: 25px;
+  margin-top: 20px;
+}
+.group .group1 .lorem p{
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+  color: #4B6A9B;
+}
+.group .group1 .group4{
+  width: 480px;
+  margin: 7px 0;
+}
+.group .group1 .group4 .group3{
+  width: 480px;
+  background: #F6F8FF;
+  border-radius: 10px;
+  display: flex;
+  column-gap: 90px;
+}
+.group .group1 .group4 .group3 .group2{
+  width: 40px;
+  margin-left: 32px;
+}
+.group .group1 .group4 .group3 .group2_copy{
+  width: 72px;
+}
+.group .group1 .group4 .group3 .group2_copy2{
+  width: 72px;
+}
+h2{
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19px;
+  color: #4B6A9B;
+}
+.group .group1 .group4 .group3 p{
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  text-transform: uppercase;
+  margin-top: -15px;
+  color: #2B3442;
+}
+.group .group1 .group4 .group3_copy{
+  width: 480px;
+
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #4B6A9B;
+
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 62px;
+
+  margin-top: 35px;
+}
+.group .group1 .group4 .group3_copy .pin{
+  width: 153px;
+  display: flex;
+  justify-content: space-between;
+}
+.group .group1 .group4 .group3_copy .twitter{
+  width: 156px;
+  display: flex;
+  justify-content: space-between;
+  margin-left:58px;
+}
+.group .group1 .group4 .group3_copy .url{
+  width: 211px;
+  display: flex;
+  justify-content: space-between;
+}
+.group .group1 .group4 .group3_copy .building{
+  width: 101px;
+  display: flex;
+  justify-content: space-between;
+}
