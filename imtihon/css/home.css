@@ -1,0 +1,63 @@
+.head{
+  width: 100%;
+  background: #141414;
+  border-radius: 8px;
+  padding-bottom: 50px;
+}
+.headphones{
+  background-image: url(/img/desktop/head-fon.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 128px 0;
+}
+.new__product{
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+.new__product span{
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.new__product h1{
+  width: 396px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 58px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0;
+}
+.new__product p{
+  width: 349px;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+  margin: 0;
+}
+.new__product button{
+  width: 160px;
+  padding: 15px 0;
+  background: #D87D4A;
+  margin-top: 16px;
+}
+.new__product button a{
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.new__product button:hover{
+  background: #FBAF85;
+}

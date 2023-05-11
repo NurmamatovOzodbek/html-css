@@ -1,0 +1,53 @@
+.products{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+}
+.product__cart{
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.product__cart #bluetooth{
+  width: 123px;
+  transform: translateY(80px);
+}
+.product__headphones{
+  padding: 116px 108.5px 30px 108.5px;
+  background: #F1F1F1;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 15px;
+}
+.product__headphones span{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 1.28571px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.product__headphones .btn{
+  width: 57.32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product__headphones .btn a{
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.product__headphones .btn img{
+  width: 5px;
+}
